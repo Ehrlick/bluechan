@@ -10,7 +10,6 @@
 
 <br>
 <hr>
-<br>
 
 <h1>categories</h1>
 

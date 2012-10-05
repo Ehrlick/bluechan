@@ -12,7 +12,6 @@
 
 <br>
 <hr>
-<br>
 
 <?php echo $this->Html->link('Add Category', array('controller' => 'categories', 'action' => 'add')); ?>
 
