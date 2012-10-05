@@ -2,8 +2,6 @@
 class CategoriesController extends AppController {
 	public $helpers = array('Html', 'Form', 'Session');
 	public $components = array('Session');
-
-	public $scaffold;
 	
 	public function beforeFilter()
 	{
@@ -29,7 +27,7 @@ class CategoriesController extends AppController {
 			$this->Category->create();
 			if ($this->Category->save($this->request->data)) {
 				$this->Session->setFlash('new Category has been saved.');
-				$this->redirect(array('controller' => 'universities', 'action' => 'view', $this->Category->University->find));
+				$this->redirect(array('controller' => 'universities', 'action' => 'index'));
 			} else {
 				$this->Session->setFlash('Unable to add the Category.');
 			}
@@ -42,7 +40,7 @@ class CategoriesController extends AppController {
 			throw new MethodNotAllowedException();
 		}
 		if ($this->Category->delete($id)) {
-			$this->Session->setFlash('The post with id: ' . $id . ' has been deleted.');
+			$this->Session->setFlash('The category with id: ' . $id . ' has been deleted.');
 			$this->redirect(array('admin' => true, 'action' => 'index'));
 		}
 	}
