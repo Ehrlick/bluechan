@@ -17,7 +17,7 @@
 <h1>categories</h1>
 
 <?php foreach ($university['Category'] as $category): ?>
-<?php echo h($category['Category']['title']); ?>
+<?php echo h($category['title']); ?>
 <br>
 <?php endforeach; ?>
 <?php unset($category); ?>
