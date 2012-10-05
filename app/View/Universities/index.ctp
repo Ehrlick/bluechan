@@ -1,5 +1,7 @@
 <h1>Select your University</h1>
 
+<hr>
+
 <table>
     <tr>
         <th>Id</th>

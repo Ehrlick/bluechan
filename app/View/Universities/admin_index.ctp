@@ -1,6 +1,10 @@
 <h1>Universities</h1>
 
+<hr>
+
 <?php echo $this->Html->link('Add University', array('controller' => 'universities', 'action' => 'add')); ?>
+
+<hr>
 
 <table>
     <tr>
