@@ -18,8 +18,28 @@
 
 <h1>categories</h1>
 
-<?php foreach ($university['Category'] as $category): ?>
-<?php echo h($category['title']); ?>
-<br>
-<?php endforeach; ?>
-<?php unset($category); ?>
+<h1>categories</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+    </tr>
+    
+	<?php foreach ($university['Category'] as $category): ?>
+	<tr>
+		<td>
+			<?php echo h($category['id']); ?>
+		</td>
+		<td>
+			<?php echo $this->Html->link($category['title'],
+				array('controller' => 'categories', 'action' => 'view', $category['id'])); ?>
+		</td>
+		<td>
+			<?php echo h($category['description']); ?>
+		</td>
+	</tr>
+	<?php endforeach; ?>
+	<?php unset($category); ?>    
+</table>
