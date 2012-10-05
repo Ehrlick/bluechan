@@ -1,5 +1,5 @@
 <?php
-class UsersController extends AppController
+class UserController extends AppController
 {
 	public
 	$uses = Array('User');
