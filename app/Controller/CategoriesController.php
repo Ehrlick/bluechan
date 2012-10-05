@@ -25,14 +25,13 @@ class CategoriesController extends AppController {
 	public function admin_add() {
 		if ($this->request->is('post')) {
 			$this->Category->create();
-			echo $this->Category->id;
-			echo $this->Category->university_id;
+			$this->request->data['Category']['university_id'] = $this->request->params['named']['universityid'];
 			if ($this->Category->save($this->request->data)) {
 				$this->Session->setFlash('new Category has been saved.');
 				
 				//$this->set('university', $this->Category->University->read());
 				//echo $this->Category->university_id;
-				$this->redirect(array('controller' => 'universities', 'action' => 'view', $this->Category->university_id));
+				$this->redirect(array('controller' => 'universities', 'action' => 'view', $this->request->data['Category']['university_id']));
 				//$this->redirect($this->referer());
 			} else {
 				$this->Session->setFlash('Unable to add the Category.');
@@ -40,6 +39,7 @@ class CategoriesController extends AppController {
 		}
 		
 		$this->set('list',$this->Category->University->find('list',array('fields'=>array('id','full_name'))));
+		$this->set('universityid', $this->request->params['named']['universityid']);
 	}
 	
 	public function admin_delete($id) {

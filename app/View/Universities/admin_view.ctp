@@ -15,6 +15,8 @@
 
 <?php echo $this->Html->link('Add Category', array('controller' => 'categories', 'action' => 'add')); ?>
 
+echo $this->Html->link(__('Add'), array('controller' => 'categories', 'action' => 'add', 'universityid' => $university['University']['id']));
+
 <h1>categories</h1>
 
 <h1>categories</h1>
