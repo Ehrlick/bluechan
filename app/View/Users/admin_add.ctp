@@ -1,6 +1,6 @@
 <div class="admin form">
     <?php
-        echo $this->Form->create('User', Array('url' => '/admin/add'));
+        echo $this->Form->create('User', Array('url' => '/user/add'));
         echo $this->Form->input('email');
         echo $this->Form->input('password');
         echo $this->Form->input('role', array(

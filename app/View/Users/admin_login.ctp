@@ -1,6 +1,6 @@
 <div class="login form">
     <?php echo $this->Session->flash('auth'); ?>
-    <?php echo $this->Form->create('User', Array('url' => '/admin/login')); ?>
+    <?php echo $this->Form->create('User', Array('url' => '/users/login')); ?>
     <table>
     	<tr>
     		<th>メールアドレス</th>
