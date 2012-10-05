@@ -1,5 +1,5 @@
 <?php
-class UniversityController extends AppController {
+class UniversitiesController extends AppController {
 	public $helpers = array('Html', 'Form', 'Session');
 	public $components = array('Session');
 
