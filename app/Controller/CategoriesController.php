@@ -31,7 +31,7 @@ class CategoriesController extends AppController {
 				//$this->set('university', $this->Category->University->read());
 				//echo $this->Category->university_id;
 				//$this->redirect(array('controller' => 'universities', 'action' => 'view', $this->Category->university_id));
-				$this->referer();
+				$this->redirect($this->referer());
 			} else {
 				$this->Session->setFlash('Unable to add the Category.');
 			}
@@ -46,7 +46,8 @@ class CategoriesController extends AppController {
 		}
 		if ($this->Category->delete($id)) {
 			$this->Session->setFlash('The category with id: ' . $id . ' has been deleted.');
-			$this->redirect(array('admin' => true, 'controller' => 'universities', 'action' => 'index'));
+			//$this->redirect(array('admin' => true, 'controller' => 'universities', 'action' => 'index'));
+			$this->redirect($this->referer());
 		}
 	}
 	
