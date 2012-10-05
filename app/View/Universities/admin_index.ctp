@@ -1,5 +1,7 @@
 <h1>Universities</h1>
 
+<?php echo $this->Html->link('Add University', array('controller' => 'universities', 'action' => 'add')); ?>
+
 <table>
     <tr>
         <th>Id</th>

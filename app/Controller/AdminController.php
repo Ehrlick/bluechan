@@ -2,16 +2,7 @@
 class AdminController extends AppController
 {
 	public
-	$uses = Array('User'),
-	$components = Array(
-			'Session',
-			'Auth' => Array(
-					'loginRedirect' => Array('controller'  => 'admin', 'action' => 'index'),
-					'logoutRedirect' => Array('controller' => 'admin', 'action' => 'login'),
-					'loginAction' => Array('controller' => 'admin', 'action' => 'login'),
-					'authenticate' => Array('Form' => Array('fields' => Array('username' => 'email')))
-			)
-	);
+	$uses = Array('User');
 
 	public function beforeFilter()
 	{
