@@ -41,7 +41,7 @@ class CategoriesController extends AppController {
 		}
 		if ($this->Category->delete($id)) {
 			$this->Session->setFlash('The category with id: ' . $id . ' has been deleted.');
-			$this->redirect(array('admin' => true, 'action' => 'index'));
+			$this->redirect(array('admin' => true, 'controller' => 'universities', 'action' => 'index'));
 		}
 	}
 	
