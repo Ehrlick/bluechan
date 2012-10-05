@@ -29,8 +29,9 @@ class CategoriesController extends AppController {
 				$this->Session->setFlash('new Category has been saved.');
 				
 				//$this->set('university', $this->Category->University->read());
-				echo $this->Category->university_id;
-				$this->redirect(array('controller' => 'universities', 'action' => 'view', $this->Category->university_id));
+				//echo $this->Category->university_id;
+				//$this->redirect(array('controller' => 'universities', 'action' => 'view', $this->Category->university_id));
+				$this->referer();
 			} else {
 				$this->Session->setFlash('Unable to add the Category.');
 			}
