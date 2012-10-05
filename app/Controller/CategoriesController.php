@@ -34,6 +34,7 @@ class CategoriesController extends AppController {
 				$this->Session->setFlash('Unable to add the Category.');
 			}
 		}
+		$this->set('list',$this->Category->University->find('list',array('fields'=>array('id','full_name'))));
 	}
 	
 }
