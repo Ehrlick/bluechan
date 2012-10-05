@@ -1,6 +1,8 @@
 <h1>Select your University</h1>
 
 <hr>
+<br>
+<br>
 
 <table>
     <tr>
