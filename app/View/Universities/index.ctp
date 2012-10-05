@@ -16,7 +16,8 @@
     <tr>
         <td><?php echo $university['University']['id']; ?></td>
         <td>
-            <?php echo $university['University']['full_name']; ?>
+        	<?php echo $this->Html->link($university['University']['full_name'],
+				array('controller' => 'universities', 'action' => 'view', $university['University']['id'])); ?>
         </td>
     </tr>
     <?php endforeach; ?>
