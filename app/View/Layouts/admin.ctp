@@ -59,18 +59,7 @@ $cakeDescription = __d('cake_dev', 'BlueChan.jp :: admin');
 	<br>
 	<br>
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	
 	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>
