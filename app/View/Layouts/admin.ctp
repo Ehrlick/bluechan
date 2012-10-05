@@ -12,7 +12,7 @@ $cakeDescription = __d('cake_dev', 'BlueChan.jp :: admin');
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('cake.admin');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
