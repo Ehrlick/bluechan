@@ -49,6 +49,8 @@ class AppController extends Controller {
 	{
 		if(empty($this->params['admin'])){
 			$this->Auth->allow($this->params['action']);
+		}else{
+			$this->layout = 'admin';
 		}
 	}
 	
