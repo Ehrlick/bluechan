@@ -173,7 +173,15 @@
  *
  */
 	Configure::write('Session', array(
-		'defaults' => 'php'
+		'defaults' => 'database',
+		'cookie' => 'SID',
+		'timeout' => 259200,
+		'ini' => Array(
+				'session.cookie_lifetime' => 2580000,
+				'session.gc_maxlifetime' => 2580000,
+				'session.gc_probability' => 1,
+				'session.gc_divisor' => 100
+		)
 	));
 
 /**

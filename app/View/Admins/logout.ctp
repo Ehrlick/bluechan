@@ -1,0 +1,1 @@
+<h1>logout_of_admin</h1>
