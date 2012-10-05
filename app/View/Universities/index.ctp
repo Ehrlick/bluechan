@@ -16,16 +16,16 @@
     <tr>
         <td><?php echo $university['University']['id']; ?></td>
         <td>
-            <?php echo $this->Html->link($university['University']['full_name']; ?>
+            <?php echo $university['University']['full_name']; ?>
         </td>
         <td>
-            <?php echo $this->Html->link($university['University']['short_name']; ?>
+            <?php echo $university['University']['short_name']; ?>
         </td>
         <td>
-            <?php echo $this->Html->link($university['University']['location']; ?>
+            <?php echo $university['University']['location']; ?>
         </td>
         <td>
-            <?php echo $this->Html->link($university['University']['location_gps']; ?>
+            <?php echo $university['University']['location_gps']; ?>
         </td>
         <td><?php echo $university['University']['created']; ?></td>
     </tr>
