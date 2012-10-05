@@ -13,6 +13,11 @@ class UniversitiesController extends AppController {
 		$this->set('university', $this->University->read());
 	}
 	
+	public function admin_view($id = null) {
+		$this->University->id = $id;
+		$this->set('university', $this->University->read());
+	}
+	
 	public function index() {
 		$this->set('universities', $this->University->find('all'));
 	}

@@ -14,6 +14,8 @@
 <hr>
 <br>
 
+<?php echo $this->Html->link('Add Category', array('controller' => 'categories', 'action' => 'add')); ?>
+
 <h1>categories</h1>
 
 <?php foreach($university['Category'] as $category ?>
