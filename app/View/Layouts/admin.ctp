@@ -24,6 +24,7 @@ $cakeDescription = __d('cake_dev', 'BlueChan.jp :: admin');
 		<div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://bluechan.jp/admin/universities'); ?></h1>
 			<h4><?php echo $this->Html->link('logout admin', array('admin' => true , 'controller' => 'users', 'action' => 'logout'));?> </h4>
+			<h4><?php echo $this->Html->link('goto normal side', array('admin' => false , 'controller' => 'universities', 'action' => 'index'));?> </h4>
 		</div>
 		<div id="content">
 
