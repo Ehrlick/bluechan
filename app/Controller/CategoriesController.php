@@ -25,6 +25,8 @@ class CategoriesController extends AppController {
 	public function admin_add() {
 		if ($this->request->is('post')) {
 			$this->Category->create();
+			echo $this->Category->id;
+			echo $this->Category->university_id;
 			if ($this->Category->save($this->request->data)) {
 				$this->Session->setFlash('new Category has been saved.');
 				
