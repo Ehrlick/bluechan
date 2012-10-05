@@ -1,5 +1,5 @@
 <?php
-class AdminController extends AppController
+class UsersController extends AppController
 {
 	public
 	$uses = Array('User');
@@ -8,15 +8,15 @@ class AdminController extends AppController
 	{
 		parent::beforeFilter();
 		$this->layout = 'admin';
-		$this->Auth->allow('add', 'login');
+		$this->Auth->allow('login');
 	}
 
-	public function index()
+	public function admin_index()
 	{
 		$this->set('title_for_layout', 'ダッシュボード | 管理画面');
 	}
 
-	public function login() {
+	public function admin_login() {
 		if($this->request->is('post')) {
 			if($this->Auth->login()) {
 				return $this->redirect($this->Auth->redirect());
@@ -26,12 +26,12 @@ class AdminController extends AppController
 		}
 	}
 
-	public function logout($id = null)
+	public function admin_logout($id = null)
 	{
 		$this->redirect($this->Auth->logout());
 	}
 
-	public function add() {
+	public function admin_add() {
 		if($this->request->is('post')) {
 			$this->User->create();
 			if ($this->User->save($this->request->data)) {
