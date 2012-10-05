@@ -15,6 +15,7 @@
         <th>Location</th>
         <th>Location_GPS</th>
         <th>Created_At</th>
+        <th>Action</th>
     </tr>
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
@@ -35,6 +36,14 @@
             <?php echo $university['University']['location_gps']; ?>
         </td>
         <td><?php echo $university['University']['created']; ?></td>
+         <td>
+        	<?php echo $this->Form->postLink(
+                'Delete',
+                array('action' => 'delete', $university['University']['id']),
+                array('confirm' => 'Are you sure?'));
+            ?>
+            <?php echo $this->Html->link('Edit', array('action' => 'edit', $university['University']['id'])); ?>
+        </td>
     </tr>
     <?php endforeach; ?>
     <?php unset($university); ?>

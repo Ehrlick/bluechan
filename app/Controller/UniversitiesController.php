@@ -27,4 +27,28 @@ class UniversitiesController extends AppController {
 			}
 		}
 	}
+	
+	public function admin_edit($id = null) {
+		$this->University->id = $id;
+		if ($this->request->is('get')) {
+			$this->request->data = $this->University->read();
+		} else {
+			if ($this->University->save($this->request->data)) {
+				$this->Session->setFlash('University has been updated.');
+				$this->redirect(array('admin' => true, 'action' => 'index'));
+			} else {
+				$this->Session->setFlash('Unable to update University info.');
+			}
+		}
+	}
+	
+	public function admin_delete($id) {
+		if ($this->request->is('get')) {
+			throw new MethodNotAllowedException();
+		}
+		if ($this->University->delete($id)) {
+			$this->Session->setFlash('The post with id: ' . $id . ' has been deleted.');
+			$this->redirect(array('admin' => true, 'action' => 'index'));
+		}
+	}
 }
