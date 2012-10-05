@@ -37,4 +37,14 @@ class CategoriesController extends AppController {
 		$this->set('list',$this->Category->University->find('list',array('fields'=>array('id','full_name'))));
 	}
 	
+	public function admin_delete($id) {
+		if ($this->request->is('get')) {
+			throw new MethodNotAllowedException();
+		}
+		if ($this->Category->delete($id)) {
+			$this->Session->setFlash('The post with id: ' . $id . ' has been deleted.');
+			$this->redirect(array('admin' => true, 'action' => 'index'));
+		}
+	}
+	
 }

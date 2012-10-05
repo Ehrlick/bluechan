@@ -24,6 +24,7 @@
         <th>Id</th>
         <th>Title</th>
         <th>Description</th>
+        <th>Action</th>
     </tr>
     
 	<?php foreach ($university['Category'] as $category): ?>
@@ -38,6 +39,13 @@
 		<td>
 			<?php echo h($category['description']); ?>
 		</td>
+		<td>
+        	<?php echo $this->Form->postLink(
+                'Delete',
+                array('action' => 'delete', $university['University']['id']),
+                array('confirm' => 'Are you sure?'));
+            ?>
+        </td>
 	</tr>
 	<?php endforeach; ?>
 	<?php unset($category); ?>    
