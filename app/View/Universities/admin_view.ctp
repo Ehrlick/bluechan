@@ -42,7 +42,7 @@
 		<td>
         	<?php echo $this->Form->postLink(
                 'Delete',
-                array('action' => 'delete', $university['University']['id']),
+                array('action' => 'delete', $category['id']),
                 array('confirm' => 'Are you sure?'));
             ?>
         </td>
