@@ -23,8 +23,8 @@ $cakeDescription = __d('cake_dev', 'BlueChan.jp :: admin');
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://bluechan.jp'); ?></h1>
-			<h6><?php echo 'hi! admin'?> </h6>
-			<h6><?php echo $this->Html->link('logout admin', array('controller' => 'users', 'action' => 'admin_logout'));?> </h6>
+			<h2><?php echo 'hi! admin'?> </h2>
+			<h2><?php echo $this->Html->link('logout admin', array('controller' => 'users', 'action' => 'logout','prefix' => 'admin'));?> </h2>
 		</div>
 		<div id="content">
 
