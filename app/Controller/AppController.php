@@ -35,14 +35,14 @@ class AppController extends Controller {
 	public 
 	$components = Array(
 			'Session',
-			'Auth',
-			/* => Array(
+			'Auth'
+			 => Array(
 					'loginRedirect' => Array('controller'  => 'user', 'action' => 'admin_index'),
-					'logoutRedirect' => Array('controller' => 'user', 'action' => 'login'),
-					'loginAction' => Array('controller' => 'user', 'action' => 'login'),
+					'logoutRedirect' => Array('controller' => 'user', 'action' => 'admin_login'),
+					'loginAction' => Array('controller' => 'user', 'action' => 'admin_login'),
 					'authenticate' => Array('Form' => Array('fields' => Array('username' => 'email')))
 					
-			)*/
+			)
 	);
 	
 	public function beforeFilter()
