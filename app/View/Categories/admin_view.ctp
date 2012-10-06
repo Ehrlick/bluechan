@@ -1,10 +1,8 @@
 
-<h1><?php echo h($category['Category']['title']); ?></h1>
+<h1><?php echo h($category['Category']['title']); ?> - POSTS</h1>
 
 <br>
 <hr>
-
-<h1>posts</h1>
 
 <table>
     <tr>
