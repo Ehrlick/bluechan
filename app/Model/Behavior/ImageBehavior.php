@@ -166,7 +166,7 @@ class ImageBehavior extends ModelBehavior {
 		foreach ($fields as $field=>$fieldParams) {
 			$folderPath=$this->__getFullFolder($model, $field);
 			//uses ('folder');
-			App::uses(‘Folder’, ‘Utility’);
+			App::uses('Folder', 'Utility');
 			$folder = &new Folder($path = $folderPath, $create = false);
 			if ($folder!==false) {
 				@$folder->delete($folder->pwd());
@@ -269,9 +269,9 @@ class ImageBehavior extends ModelBehavior {
 		$fileName=$field .'.'. $ext;
 
 		//uses ('folder');
-		App::uses(‘Folder’, ‘Utility’);
+		App::uses('Folder', 'Utility');
 		//uses ('file');
-		App::uses(‘File’, ‘Utility’);
+		App::uses('File', 'Utility');
 		$folder = &new Folder($path = $folderName, $create = true, $mode = 0777);
 		
 		$files=$folder->find($fileName);
