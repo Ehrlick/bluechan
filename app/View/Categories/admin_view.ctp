@@ -13,6 +13,7 @@
         <th>location_string</th>
         <th>location_gps</th>
         <th>created</th>
+        <th>Action</th>
     </tr>
     
 	<?php foreach ($category['Post'] as $post): ?>
@@ -39,6 +40,13 @@
 		<td>
 			<?php echo h($post['created']); ?>
 		</td>
+		<td>
+        	<?php echo $this->Form->postLink(
+                'Delete',
+                array('controller' => 'posts', 'action' => 'delete', $post['id']),
+                array('confirm' => 'Are you sure?'));
+            ?>
+        </td>
 	</tr>
 	<?php endforeach; ?>
 	<?php unset($category); ?>    
