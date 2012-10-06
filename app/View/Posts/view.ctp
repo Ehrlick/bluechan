@@ -1,5 +1,7 @@
 
-<h1><?php echo h($post['Post']['user_name']); ?>さん         <?php echo h($post['Post']['title']); ?></h1>
+<h1><?php echo h($post['Post']['user_name']); ?>さん </h1>
+||
+<big><?php echo h($post['Post']['title']); ?></big>
 
 <h1>BZ-EMAIL : <?php echo h($post['Post']['email']); ?> </h1>
 
