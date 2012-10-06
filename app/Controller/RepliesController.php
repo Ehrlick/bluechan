@@ -24,5 +24,15 @@ class RepliesController extends AppController {
 		$this->set('list',$this->Reply->Post->find('list',array('fields'=>array('id','title'))));
 		$this->set('postid', $this->request->params['named']['postid']);
 	}
+	
+	public function admin_delete($id) {
+		if ($this->request->is('get')) {
+			throw new MethodNotAllowedException();
+		}
+		if ($this->Reply->delete($id)) {
+			$this->Session->setFlash('The reply with id: ' . $id . ' has been deleted.');
+			$this->redirect($this->referer());
+		}
+	}
 
 }

@@ -1,6 +1,6 @@
 <h1>Add Reply</h1>
 <?php
-echo $this->Form->create('Reply'));
+echo $this->Form->create('Reply');
 echo $this->Form->input('post_id',array('type'=>'select','options'=>$list,'value'=>$postid));
 
 echo $this->Form->input('email');

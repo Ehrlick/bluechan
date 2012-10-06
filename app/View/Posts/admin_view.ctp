@@ -35,6 +35,7 @@
         <th>User_Name</th>
         <th>Text</th>
         <th>created</th>
+        <th>action</th>
     </tr>
     
 	<?php foreach ($post['Reply'] as $reply): ?>
@@ -48,6 +49,13 @@
 		<td>
 			<?php echo h($reply['created']); ?>
 		</td>
+		<td>
+        	<?php echo $this->Form->postLink(
+                'Delete',
+                array('controller' => 'replies', 'action' => 'delete', $reply['id']),
+                array('confirm' => 'Are you sure?'));
+            ?>
+        </td>
 	</tr>
 	<?php endforeach; ?>
 	<?php unset($reply); ?>    
