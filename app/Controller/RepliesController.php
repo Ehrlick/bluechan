@@ -1,5 +1,5 @@
 <?php
-class PostsController extends AppController {
+class RepliesController extends AppController {
 	public $helpers = array('Html', 'Form', 'Session');
 	public $components = array('Session');
 	
