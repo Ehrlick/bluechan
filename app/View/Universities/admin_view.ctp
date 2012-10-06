@@ -12,7 +12,7 @@
 
 <?php //echo $this->Html->link('Add Category', array('controller' => 'categories', 'action' => 'add')); ?>
 
-<?php echo $this->Html->link(__('Add'), array('controller' => 'categories', 'action' => 'add', 'universityid' => $university['University']['id'])); ?>
+<?php echo $this->Html->link(__('Add Category'), array('controller' => 'categories', 'action' => 'add', 'universityid' => $university['University']['id'])); ?>
 
 <br>
 

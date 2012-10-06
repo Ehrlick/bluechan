@@ -10,7 +10,6 @@
 <p><?php //echo h($university['University']['location_gps']); ?></p>
 
 <br>
-<hr>
 
 <table>
     <tr>
