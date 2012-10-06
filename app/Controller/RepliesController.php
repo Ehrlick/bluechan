@@ -10,19 +10,19 @@ class PostsController extends AppController {
 	
 	function add() {
 		if ($this->request->is('post')) {
-			$this->Post->create();
-			$this->request->data['Post']['category_id'] = $this->request->params['named']['categoryid'];
-			if ($this->Post->save($this->request->data)) {
-				$this->Session->setFlash('new Post has been saved.');
+			$this->Reply->create();
+			$this->request->data['Reply']['post_id'] = $this->request->params['named']['postid'];
+			if ($this->Reply->save($this->request->data)) {
+				$this->Session->setFlash('new Reply has been saved.');
 		
-				$this->redirect(array('controller' => 'categories', 'action' => 'view', $this->request->data['Post']['category_id']));
+				$this->redirect(array('controller' => 'posts', 'action' => 'view', $this->request->data['Reply']['post_id']));
 			} else {
-				$this->Session->setFlash('Unable to add the Post.');
+				$this->Session->setFlash('Unable to add the Reply.');
 			}
 		}
 		
-		$this->set('list',$this->Post->Category->find('list',array('fields'=>array('id','title'))));
-		$this->set('categoryid', $this->request->params['named']['categoryid']);
+		$this->set('list',$this->Reply->Post->find('list',array('fields'=>array('id','title'))));
+		$this->set('postid', $this->request->params['named']['postid']);
 	}
 
 }

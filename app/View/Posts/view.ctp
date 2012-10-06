@@ -23,8 +23,13 @@
 	</tr>    
 </table>
 
+<br>
+<br>
+<br>
+
 <hr>
 <h1>REPLIES...</h1>
+<?php echo $this->Html->link(__('Add Reply'), array('controller' => 'replies', 'action' => 'add', 'postid' => $post['Post']['id'])); ?>
 <table>
     <tr>
         <th>User_Name</th>
@@ -38,7 +43,7 @@
 			<?php echo h($reply['user_name']); ?>
 		</td>
 		<td>
-			<?php echo h($reply['text']); ?>
+			<?php echo h($reply['body']); ?>
 		</td>
 		<td>
 			<?php echo h($reply['created']); ?>
