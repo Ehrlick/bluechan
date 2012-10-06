@@ -16,8 +16,10 @@ class ImageBehavior extends ModelBehavior {
 		if (!isset($settings['fields'])) $settings['fields']=array();
 		$fields=array();
 		foreach($settings['fields'] as $key=>$value) {
-			$field = ife(is_numeric($key), $value, $key);
-			$conf = ife(is_numeric($key), array(), ife(is_array($value),$value,array()));
+			//$field = ife(is_numeric($key), $value, $key);
+			$field = is_numeric($key) ? $value : $key;
+			//$conf = ife(is_numeric($key), array(), ife(is_array($value),$value,array()));
+			$conf = is_numeric($key) ? array() : (is_array($value) ? $value : array());
 			$conf=Set::merge(
 			array (
 				'thumbnail' => array('prefix'=>'thumb',
@@ -63,7 +65,8 @@ class ImageBehavior extends ModelBehavior {
 		
 		$tempData = array();
 		foreach ($fields as $key=>$value) {
-			$field = ife(is_numeric($key), $value, $key);
+			//$field = ife(is_numeric($key), $value, $key);
+			$field = is_numeric($key) ? $value : $key;
 			if (isset($model->data[$model->name][$field])) {
 				if ($this->__isUploadFile($model->data[$model->name][$field])) {
 					$tempData[$field] = $model->data[$model->name][$field];
@@ -93,7 +96,8 @@ class ImageBehavior extends ModelBehavior {
 	} 
 
 	
-	function afterFind(&$model, &$results, $primary) { 
+	//function afterFind(&$model, &$results, $primary) {
+	function afterFind(&$model, $results, $primary) { 
 		extract($this->settings[$model->name]);
 
 		if ( is_array( $results ) ) {
