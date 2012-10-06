@@ -1,10 +1,12 @@
 
-<h1><?php echo h($post['Post']['title']); ?></h1>
+<h1><?php echo h($post['Post']['user_name']); ?>さん         <?php echo h($post['Post']['title']); ?></h1>
+
+<h1>BZ-EMAIL : <?php echo h($post['Post']['email']); ?> </h1>
 
 <table>
     <tr>
-        <th>Body</th>
-        <th>Image</th>
+         <th>一言</th>
+        　<th>画像</th>
     </tr>
     
 	<tr>
