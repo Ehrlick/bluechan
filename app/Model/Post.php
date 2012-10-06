@@ -2,6 +2,7 @@
 class Post extends AppModel {
 
 	public $belongsTo = array('Category');
+	public $hasMany = array('Reply');
 
 	var $name = 'Post';
 	var $actsAs = array(
