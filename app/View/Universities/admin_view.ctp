@@ -8,12 +8,12 @@
 <p><?php //echo h($university['University']['location']); ?></p>
 <p><?php //echo h($university['University']['location_gps']); ?></p>
 
-<hr>
 
 <?php //echo $this->Html->link('Add Category', array('controller' => 'categories', 'action' => 'add')); ?>
 
 <?php echo $this->Html->link(__('Add Category'), array('controller' => 'categories', 'action' => 'add', 'universityid' => $university['University']['id'])); ?>
 
+<br>
 <br>
 
 <table>
