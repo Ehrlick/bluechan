@@ -1,5 +1,5 @@
 <?php
-class Category extends AppModel {
+class Post extends AppModel {
 
 	public $belongsTo = array('Category');
 
