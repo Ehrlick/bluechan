@@ -1,16 +1,13 @@
 
-<h1><?php echo h($university['University']['full_name']); ?></h1>
+<h1><?php echo h($university['University']['full_name']); ?> - categories</h1>
 
 <br>
 <hr>
 
 <p><small>Created: <?php echo $university['University']['created']; ?></small></p>
+<p><?php //echo h($university['University']['location']); ?></p>
+<p><?php //echo h($university['University']['location_gps']); ?></p>
 
-<p><?php echo h($university['University']['location']); ?></p>
-<br>
-<p><?php echo h($university['University']['location_gps']); ?></p>
-
-<br>
 <hr>
 
 <?php //echo $this->Html->link('Add Category', array('controller' => 'categories', 'action' => 'add')); ?>
@@ -18,8 +15,6 @@
 <?php echo $this->Html->link(__('Add'), array('controller' => 'categories', 'action' => 'add', 'universityid' => $university['University']['id'])); ?>
 
 <br>
-
-<h1>categories</h1>
 
 <table>
     <tr>

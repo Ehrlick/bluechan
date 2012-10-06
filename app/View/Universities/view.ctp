@@ -1,17 +1,16 @@
 
-<h1><?php echo h($university['University']['full_name']); ?></h1>
+<h1><?php echo h($university['University']['full_name']); ?> - categories </h1>
 
 <br>
 <hr>
 
 <p><small>Created: <?php echo $university['University']['created']; ?></small></p>
-<p><?php echo h($university['University']['location']); ?></p>
-<p><?php echo h($university['University']['location_gps']); ?></p>
+
+<p><?php //echo h($university['University']['location']); ?></p>
+<p><?php //echo h($university['University']['location_gps']); ?></p>
 
 <br>
 <hr>
-
-<h1>categories</h1>
 
 <table>
     <tr>
