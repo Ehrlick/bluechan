@@ -58,8 +58,7 @@ fieldset.search {
 	border: none;
 	width: 243px;
 	margin: 0 auto;
-	background: #222;
-	float: left;
+	background: #FFFFF;
 }
 .search input, .search button {
 	border: none;
@@ -83,10 +82,10 @@ fieldset.search {
 	height: 38px;
 	cursor: pointer;
 	text-indent: -9999px;
-	background: 3366FF url(search_bg.gif) no-repeat top right;
+	background: 3366FF top right;
 }
 .search button.btn:hover {
-	background: 3366FF url(search_bg.gif) no-repeat bottom right;
+	background: 3366FF  bottom right;
 }
 
 </style>
