@@ -85,11 +85,10 @@ width: 400px;
 
 </style>
 
-<div id="worp">
+<div id="worp">  
 
-<div id="searchbox">  
-                <form id="searchform" method="get">  
-                    <div>  
+<form id="searchform" method="get">  
+<div>  
             <span>検索 :</span>  
             <input type="text" id="searchform_text" name="s" value=""/>  
             <input type="image" id="searchbutton" src="img/ShowImage.gif"/>  
