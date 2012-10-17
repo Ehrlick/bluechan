@@ -121,6 +121,26 @@ p {
 	background: #483D8B;
 	text-decoration: underline;
 }
+
+#header h3 {
+	line-height:20px;
+	background: #483D8B;
+	color: #fff;
+	padding: 0px 30px;
+	text-align: left;
+	font-size: 60%;
+}
+#header h3 a {
+	color: #fff;
+	background: #483D8B;
+	font-weight: normal;
+	text-decoration: none;
+}
+#header h3 a:hover {
+	color: #fff;
+	background: #483D8B;
+	text-decoration: underline;
+}
 #content{
 	background: #fff;
 	clear: both;
