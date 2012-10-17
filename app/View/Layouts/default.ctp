@@ -41,7 +41,6 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 		<div id="header">
 			<h1><img src="img/Logo-New.png" class="logo">
 			<?php echo $this->Html->link($cakeDescription, 'http://bluechan.jp'); ?></h1>
-			<h4><?php echo $this->Html->link('goto admin page', array('admin' => true, 'controller' => 'universities', 'action' => 'index'));?> </h4>
 			<h3><?php echo $this->Html->link('Home', array('controller' => 'universities', 'action' => 'index'));?> | <?php echo $this->Html->link('Universities', array('controller' => 'universities', 'action' => 'index'));?> | <?php echo $this->Html->link('Category', array('controller' => 'categories', 'action' => 'index'));?></h3>
 		</div>
 		<div id="content">
@@ -63,6 +62,7 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 		</div>
 	<br>
 	<br>
+	<h4><?php echo $this->Html->link('goto admin page', array('admin' => true, 'controller' => 'universities', 'action' => 'index'));?> </h4>
 	
 	<?php //echo $this->element('sql_dump'); ?>
 </body>
