@@ -4,7 +4,7 @@
 <br>
 <br>
 
-<style>div{float:center;}</style>
+<style>div{float:left;}</style>
 <div>
 <table>
     <tr>
