@@ -33,7 +33,7 @@ width: 400px;
   }
 .box24 dt{/*タイトル部分の設定*/
   color: #FFFFFF;/*文字色*/
-  background-color: #6A6FAC;/*背景色*/
+  background-color: #6A6FBE;/*背景色*/
   font-family: Arial,sans-serif;
   font-weight: bold;
   letter-spacing: 0.2em;
@@ -47,6 +47,7 @@ width: 400px;
   margin: 0;
   padding: 0;
   border: solid 1px #6A6FBE;/*枠色*/
+  background-color: #FFFFFF;
   }
 .box24 dd .textb24{
   padding: 1.2em 0.9em;/*テキスト部分の余白*/
