@@ -80,13 +80,18 @@ width: 400px;
 
 <div id="worp">  
 
-<hr>
+
 <br>
 
 <div id="left">
+
+
 <dl class="box24">
 <dt>University</dt>
 <dd><div class="textb24">
+
+<hr>
+
 <table>
     <tr>
         <th>Id</th>
@@ -111,6 +116,9 @@ width: 400px;
 </div>
 
 <div id="right">
+
+<div style="background-color:#ff9933;width:20px;height:20px">New Post</div>
+
 <dl class="box24">
 <dt>Categories</dt>
 <dd><div class="textb24">
