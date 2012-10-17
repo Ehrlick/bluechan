@@ -1,4 +1,3 @@
-<h1>Select your University</h1>
 
 <hr>
 <br>
@@ -98,16 +97,16 @@ width: 400px;
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
 
-    <?php foreach ($universities as $university): ?>
+    <?php foreach ($categories as $category): ?>
     <tr>
-        <td><?php echo $university['University']['id']; ?></td>
+        <td><?php echo $category['Category']['id']; ?></td>
         <td>
-        	<?php echo $this->Html->link($university['University']['full_name'],
-				array('controller' => 'universities', 'action' => 'view', $university['University']['id'])); ?>
+        	<?php echo $this->Html->link($Category['Category']['title'],
+				array('controller' => 'categories', 'action' => 'view', $category['Category']['id'])); ?>
         </td>
     </tr>
     <?php endforeach; ?>
-    <?php unset($university); ?>
+    <?php unset($category); ?>
 </table>
 </div></dd>
 </dl>

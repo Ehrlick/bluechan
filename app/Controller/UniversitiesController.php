@@ -20,6 +20,7 @@ class UniversitiesController extends AppController {
 	
 	public function index() {
 		$this->set('universities', $this->University->find('all'));
+		$this->set('categories', $this->Category->find('all'));
 	}
 	
 	public function admin_index() {
