@@ -84,6 +84,8 @@ width: 400px;
     border: solid 1px #831212;
     background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);
     border-radius: 5px;
+    margin: 0px;
+    float: right;
 }
  
 .a_demo_one:active {
@@ -155,7 +157,7 @@ width: 400px;
 <div id="right">
 
 <a href="#" class="a_demo_one">
-     Click me!
+     Add Post
 </a>
 
 <dl class="box24">
