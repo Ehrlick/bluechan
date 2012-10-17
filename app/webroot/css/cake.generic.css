@@ -77,6 +77,12 @@ p {
 	text-align: left;
 }
 
+#logo{
+	border: 1px solid #000;
+  	width: 40px;
+  	height: 40px;
+}
+
 #header{
 	padding: 10px 20px;
 	width: 810px;
@@ -87,7 +93,7 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: #330066 url('../img/Logo-New.png') no-repeat left;
+	background: #330066 no-repeat left;
 	color: #fff;
 	padding: 0px 30px;
 }
