@@ -54,6 +54,40 @@ width: 400px;
   
 -->
 
+#searchbox input.text{
+	position:absolute;
+	top:12px;
+	left:300px;
+	width:197px;
+	height:43px;
+	background:url(img/search_bg.gif) no-repeat;
+	border:none;
+	padding:13px 6px 0px 8px;
+	}
+
+html:first-child #searchbox input.text{
+	padding:0px 6px 0px 8px;
+	}
+#searchbox input.text:hover,#searchbox input.text:focus{
+	background:url(img/search_bg_o.gif) no-repeat;
+	}
+	
+	#searchbox input.searchbtn{
+	position:absolute;
+	top:15px;
+	left:490px;
+	width:43px;
+	height:43px;
+	background:url(img/icon_search.gif) 0px -3px no-repeat;
+	border:none;
+	text-indent:-9999px;
+	cursor:pointer;
+	}
+
+html:first-child #searchbox input.searchbtn{
+	padding:41px 0px 10px 0px;
+	}
+
 
 </style>
 
@@ -61,13 +95,21 @@ width: 400px;
 
 <form method="get" action="#" class="search">
 
-<div>
-<input type="text" name="example" class="textBox"><input type="submit" value="検索" class="btn">
-</div>
+<div id="searchbox">
+<form action="xxxxxx">
+<fieldset>
+<legend class="none">Search Redline Magazine</legend>
+・・・略・・・
+<input class="text" type="text" name="q" maxlength="255" value="" />
+<input type="submit" value="検索" class="searchbtn" />
+</fieldset>
+</form>
+<!--/searchbox --></div>
 
 </form>
 
 <hr>
+<br>
 
 <div id="left">
 <dl class="box24">
