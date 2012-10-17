@@ -87,6 +87,9 @@ width: 400px;
 </div>
 
 <div id="right">
+<dl class="box24">
+<dt>Categories</dt>
+<dd><div class="textb24">
 <table>
     <tr>
         <th>Id</th>
@@ -105,4 +108,7 @@ width: 400px;
     </tr>
     <?php endforeach; ?>
     <?php unset($university); ?>
-</table></div>
+</table>
+</div></dd>
+</dl>
+</div>
