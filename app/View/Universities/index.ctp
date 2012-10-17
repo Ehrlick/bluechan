@@ -15,7 +15,7 @@ margin-bottom: 0px;
 margin-left: auto;
 }
 #worp #left {
-margin: 0px;
+margin: 10px;
 padding: 0px;
 float: left;
 width: 400px;
