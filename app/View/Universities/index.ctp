@@ -32,7 +32,7 @@ width: 400px;
   font-size: 12px;/*文字サイズ*/
   }
 .box24 dt{/*タイトル部分の設定*/
-  color: #FFFFFF;/*文字色*/
+  color: #6A6FBE;/*文字色*/
   background-color: #6A6FBE;/*背景色*/
   font-family: Arial,sans-serif;
   font-weight: bold;
