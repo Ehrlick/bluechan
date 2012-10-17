@@ -4,7 +4,7 @@
 <br>
 <br>
 
-<style>div{display:inline;}</style>
+<style>div{float:center;}</style>
 <div>
 <table>
     <tr>
