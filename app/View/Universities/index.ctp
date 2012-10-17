@@ -10,7 +10,7 @@ margin-top: 0px;
 margin-right: auto;
 margin-bottom: 0px;
 margin-left: auto;
-background: url('./img/lighter_grey.jpg');
+background: url('img/lighter_grey.jpg');
 }
 #worp #left {
 margin: 0px;
