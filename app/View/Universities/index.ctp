@@ -84,7 +84,8 @@ width: 400px;
     border: solid 1px #831212;
     background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
+    padding-bottom:10px;
     float: right;
 }
  
