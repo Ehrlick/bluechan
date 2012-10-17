@@ -65,7 +65,7 @@ width: 400px;
 <table>
     <tr>
         <th>Id</th>
-        <th>Full_Name</th>
+        <th>University</th>
     </tr>
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
@@ -92,7 +92,7 @@ width: 400px;
 <table>
     <tr>
         <th>Id</th>
-        <th>Full_Name</th>
+        <th>Category</th>
     </tr>
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
