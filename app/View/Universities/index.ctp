@@ -73,51 +73,8 @@ width: 400px;
   
 -->
 
-fieldset.search {
-	border-top: solid 2px #CACFEC;
-  	border-bottom: solid 2px #CACFEC;
-	margin: 0 auto;
-}
-.search input, .search button {
-	border: none;
-	float: left;
-}
-.search input.box {
-	color: #FFFFFF;
-	font-size: 1.2em;;
-	width: 300px
-	height: 30px;
-	padding: 8px 5px 0;
-	background: #FFFFFF;
-	margin-right: 5px;
-	border: solid 1px #6699FF;
-}
-.search input.box:focus {
-	background: 3366FF no-repeat left -38px;
-	outline: none;
-}
-.search button.btn {
-	width: 38px;
-	height: 38px;
-	cursor: pointer;
-	text-indent: -9999px;
-	background: 3366FF top right;
-}
-.search button.btn:hover {
-	background: 3366FF  bottom right;
-}
-
 </style>
 
-<div id="worp2">  
-
-<form method="get" id="searchform" action="http://www.sohtanaka.com/">
-<fieldset class="search">
-	<input type="text" class="box" />
-	<button class="btn" title="Submit Search">Search</button>
-</fieldset>
-</form>
-</div>
 
 <br>
 

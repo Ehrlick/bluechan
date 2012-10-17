@@ -23,14 +23,14 @@
 
 /** General Style Info **/
 body {
-	background: #483D8B;
+	background: ＃3366FF;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 	margin: 0;
 }
 a {
-	color: #483D8B;
+	color: ＃3366FF;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 }
 h1 {
 	background:#fff;
-	color: #483D8B;
+	color: ＃3366FF;
 	font-size: 100%;
 }
 h2 {
@@ -87,24 +87,24 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: #483D8B url('../img/cake.icon.png') no-repeat left;
+	background: ＃3366FF url('../img/cake.icon.png') no-repeat left;
 	color: #fff;
 	padding: 0px 30px;
 }
 #header h1 a {
 	color: #fff;
-	background: #483D8B;
+	background: ＃3366FF;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
 	color: #fff;
-	background: #483D8B;
+	background: ＃3366FF;
 	text-decoration: underline;
 }
 #header h4 {
 	line-height:20px;
-	background: #483D8B;
+	background: ＃3366FF;
 	color: #fff;
 	padding: 0px 30px;
 	text-align: right;
@@ -112,19 +112,19 @@ p {
 }
 #header h4 a {
 	color: #fff;
-	background: #483D8B;
+	background: ＃3366FF;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h4 a:hover {
 	color: #fff;
-	background: #483D8B;
+	background: ＃3366FF;
 	text-decoration: underline;
 }
 
 #header h3 {
 	line-height:20px;
-	background: #483D8B;
+	background: ＃3366FF;
 	color: #fff;
 	padding: 0px 30px;
 	text-align: left;
@@ -132,13 +132,13 @@ p {
 }
 #header h3 a {
 	color: #fff;
-	background: #483D8B;
+	background: ＃3366FF;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h3 a:hover {
 	color: #fff;
-	background: #483D8B;
+	background: ＃3366FF;
 	text-decoration: underline;
 }
 #content{
