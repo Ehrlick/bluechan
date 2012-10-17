@@ -56,38 +56,7 @@ width: 400px;
   
 -->
 
-#searchform4 {
-	background:url(images/search4.gif) left top no-repeat;
-	display: block;
-	width:215px;
-	height:28px;
-}
-#searchform4 input {
-	float:left;
-}
-#searchform4 .isearch4 {
-	border:none;
-	background:none;
-	width:150px;
-	margin:9px;
-	margin-right:0;
-	color:#464646;
-	font-size: 10px;
-}
-#searchform4 .ibutton4 {
-	background:none;
-	border:none;
-	margin-top:6px;
-	width:45px;
-	cursor: pointer;
-}
-
 </style>
-
-<form id="searchform4″ method="get" action="" >
-<input class="isearch4″ type="text" name="keywords" id="keywords" />
-<input class="ibutton4″ type="submit" value="" />
-</form>
 
 <div id="worp">
 
