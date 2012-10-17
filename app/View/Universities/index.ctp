@@ -182,7 +182,7 @@ width: 400px;
 <div id="right">
 
 <a href="#" class="a_demo_one">
-     Add Post
+     &nbsp;&nbsp;&nbsp;Add Post&nbsp;&nbsp;&nbsp;
 </a>
 
 <br>
