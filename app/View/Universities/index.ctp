@@ -117,7 +117,10 @@ width: 400px;
 
 <div id="right">
 
-<div style="background-color:#ff9933;width:20px;height:20px">New Post</div>
+<div style="background-color:#330066;width:100px;height:40px">New Post</div>
+
+<br>
+<br>
 
 <dl class="box24">
 <dt>Categories</dt>
