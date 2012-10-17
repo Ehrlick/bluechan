@@ -49,7 +49,9 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
+		
+	</div>
+	<div id="footer">
 			© 2012 BlueChanJP. All Rights Reserved.
 			<?php   //echo $this->Html->link(
 					//$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
@@ -58,7 +60,8 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 				//);
 			?>
 		</div>
-	</div>
+	<br>
+	<br>
 	
 	<?php //echo $this->element('sql_dump'); ?>
 </body>
