@@ -57,24 +57,6 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 			?>
 		</div>
 	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
 	
 	<?php //echo $this->element('sql_dump'); ?>
 </body>
