@@ -92,7 +92,7 @@ width: 400px;
                     <div>  
             <span>検索 :</span>  
             <input type="text" id="searchform_text" name="s" value=""/>  
-            <input type="image" id="searchbutton" src="go.gif"/>  
+            <input type="image" id="searchbutton" src="img/ShowImage.gif"/>  
         </div>  
     </form>  
 </div>  
