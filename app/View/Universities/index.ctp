@@ -210,7 +210,6 @@ input[type=button], input[type=button]:hover {
 	<span><input type="text" class="search square"><input type="button" value="Search"></span>
 </form>
 </div>
-</div>
 
 
 <br>
