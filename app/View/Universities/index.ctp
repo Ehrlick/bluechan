@@ -145,7 +145,11 @@ width: 400px;
 <div id="left">
 
 <form>
-	<span><input type="text" class="search_box"><input type="button" value="Search"></span>
+	<span><input type="text" class="search_box">
+	<a href="#" class="a_demo_one">
+     Search
+	</a>
+</span>
 </form>
 
 <br>
