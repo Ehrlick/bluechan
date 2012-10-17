@@ -204,14 +204,6 @@ input[type=button], input[type=button]:hover {
 
 <div id="left">
 
-<div class="lighter">
-<form>
-	<span><input type="text" class="search rounded" placeholder="Search..."></span>
-	<span><input type="text" class="search square"><input type="button" value="Search"></span>
-</form>
-</div>
-
-
 <br>
 <br>
 <br>
