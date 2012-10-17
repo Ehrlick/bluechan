@@ -10,7 +10,6 @@ margin-top: 0px;
 margin-right: auto;
 margin-bottom: 0px;
 margin-left: auto;
-background: url('img/lighter_grey.jpeg');
 }
 #worp #left {
 margin: 0px;
@@ -114,81 +113,6 @@ width: 400px;
     box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
 }
 
-body {
-	
-}
-.container{
-	width:900px;
-	margin:30px auto;
-	padding:25px;
-	min-height:400px;
-	height:auto;
-	background:#FFF;	
-}
-.container h2 { margin-top:30px;}
-form{
-	width:500px;
-	margin:0 auto;
-}
-.search { 
-	padding:6px 15px 6px 30px;
-	margin:3px; 
-	background: url('./img/search.png') no-repeat 8px 6px; 
-}
-.rounded { 
-	border-radius:15px; 
-	-moz-border-radius:15px; 
-	-webkit-border-radius:15px; 
-}
-input[type=text]{
-	color:#bcbcbc;
-}
-input[type=button], input[type=button]:hover {
-	position:relative; 
-	left:-6px;
-	border:1px solid #adc5cf;
-	background: #e4f1f9; /* Old browsers */
-	background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* IE10+ */
-	background: linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
-	color:#7da2aa;
-	cursor: pointer;
-}
-.lighter, .light, .dark {
-	width:95%;
-	height:50px;
-	padding:40px 25px;
-}
-
-.lighter{
-	background: url('./img/lighter_grey.jpg');
-}
-.lighter input[type=text]{
-	border:1px solid #d0d0d0;
-	background-color:#fcfcfc;
-}
-
-.light{
-	background: url('./img/light_grey.jpg');
-}
-.light input[type=text]{
-	border:1px solid #acb1b7;
-	background-color:#fcfcfc;
-}
-
-.dark{
-	background: url('./img/dark_grey.jpg');
-}
-.dark input[type=text]{
-	border:1px solid #2a2e31;
-	background-color:#2d3035;
-	color:#505358;
-}
-
 
 </style>
 
@@ -203,6 +127,11 @@ input[type=button], input[type=button]:hover {
 <br>
 
 <div id="left">
+
+<form>
+	<span><input type="text" class="search rounded" placeholder="Search..."></span>
+	<span><input type="text" class="search square"><input type="button" value="Search"></span>
+</form>
 
 <br>
 <br>
