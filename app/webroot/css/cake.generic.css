@@ -87,24 +87,24 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: ＃330066 url('../img/cake.icon.png') no-repeat left;
+	background: #330066 url('../img/cake.icon.png') no-repeat left;
 	color: #fff;
 	padding: 0px 30px;
 }
 #header h1 a {
 	color: #fff;
-	background: ＃330066;
+	background: #330066;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
 	color: #fff;
-	background: ＃330066;
+	background: #330066;
 	text-decoration: underline;
 }
 #header h4 {
 	line-height:20px;
-	background: ＃330066;
+	background: #330066;
 	color: #fff;
 	padding: 0px 30px;
 	text-align: right;
@@ -112,19 +112,19 @@ p {
 }
 #header h4 a {
 	color: #fff;
-	background: ＃330066;
+	background: #330066;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h4 a:hover {
 	color: #fff;
-	background: ＃330066;
+	background: #330066;
 	text-decoration: underline;
 }
 
 #header h3 {
 	line-height:20px;
-	background: ＃330066;
+	background: #330066;
 	color: #fff;
 	padding: 0px 30px;
 	text-align: left;
@@ -132,7 +132,7 @@ p {
 }
 #header h3 a {
 	color: #fff;
-	background: ＃330066;
+	background: #330066;
 	font-weight: normal;
 	text-decoration: none;
 }

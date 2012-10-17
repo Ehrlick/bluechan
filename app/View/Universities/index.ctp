@@ -161,6 +161,8 @@ width: 400px;
      Add Post
 </a>
 
+<br>
+
 <dl class="box24">
 <dt>Categories</dt>
 <dd><div class="textb24">
