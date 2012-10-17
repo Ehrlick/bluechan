@@ -101,7 +101,7 @@ width: 400px;
     <tr>
         <td><?php echo $category['Category']['id']; ?></td>
         <td>
-        	<?php echo $this->Html->link($Category['Category']['title'],
+        	<?php echo $this->Html->link($category['Category']['title'],
 				array('controller' => 'categories', 'action' => 'view', $category['Category']['id'])); ?>
         </td>
     </tr>
