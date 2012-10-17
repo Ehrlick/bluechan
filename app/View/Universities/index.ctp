@@ -139,16 +139,12 @@ width: 400px;
 <hr>
 
 <table>
-    <tr>
-        <th>Id</th>
-        <th>University</th>
-    </tr>
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
 
     <?php foreach ($universities as $university): ?>
     <tr>
-        <td><?php echo $university['University']['id']; ?></td>
+      
         <td>
         	<?php echo $this->Html->link($university['University']['full_name'],
 				array('controller' => 'universities', 'action' => 'view', $university['University']['id'])); ?>
@@ -176,16 +172,10 @@ width: 400px;
 <dt>Categories</dt>
 <dd><div class="textb24">
 <table>
-    <tr>
-        <th>Id</th>
-        <th>Category</th>
-    </tr>
-
     <!-- Here is where we loop through our $posts array, printing out post info -->
 
     <?php foreach ($categories as $category): ?>
     <tr>
-        <td><?php echo $category['Category']['id']; ?></td>
         <td>
         	<?php echo $this->Html->link($category['Category']['title'],
 				array('controller' => 'categories', 'action' => 'view', $category['Category']['id'])); ?>
