@@ -22,6 +22,25 @@ float: right;
 width: 400px;
 }
 
+#worp2 {
+padding: 0px;
+width: 810px;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+}
+#worp2 #left {
+margin: 0px;
+padding: 0px;
+float: left;
+width: 400px;
+}
+#worp2 #right {
+float: right;
+width: 400px;
+}
+
 -->
 
 .box24{
@@ -65,7 +84,8 @@ fieldset.search {
 }
 .search input.box {
 	color: #FFFFFF;
-	font-size: 1.2em;
+	font-size: 1.2em;;
+	width: 300px
 	height: 30px;
 	padding: 8px 5px 0;
 	background: #FFFFFF;
@@ -89,7 +109,7 @@ fieldset.search {
 
 </style>
 
-<div id="worp">  
+<div id="worp2">  
 <div id="left">
 <form method="get" id="searchform" action="http://www.sohtanaka.com/">
 <fieldset class="search">
