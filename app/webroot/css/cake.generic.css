@@ -88,18 +88,18 @@ p {
 }
 #header h1 a {
 	color: #fff;
-	background: #003d4c;
+	background: #000080;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
 	color: #fff;
-	background: #003d4c;
+	background: #000080;
 	text-decoration: underline;
 }
 #header h4 {
 	line-height:20px;
-	background: #003d4c;
+	background: #000080;
 	color: #fff;
 	padding: 0px 30px;
 	text-align: right;
@@ -107,13 +107,13 @@ p {
 }
 #header h4 a {
 	color: #fff;
-	background: #003d4c;
+	background: #000080;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h4 a:hover {
 	color: #fff;
-	background: #003d4c;
+	background: #000080;
 	text-decoration: underline;
 }
 #content{
