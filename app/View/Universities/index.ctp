@@ -4,8 +4,9 @@
 <br>
 <br>
 
-<style>div{float:left;}</style>
-<div style="width:600;background-color:red;"><table>
+<style>div{display:inline;}</style>
+<div>
+<table>
     <tr>
         <th>Id</th>
         <th>Full_Name</th>
@@ -25,7 +26,7 @@
     <?php unset($university); ?>
 </table></div>
 
-<div style="width:600;background-color:green;">
+<div>
 <table>
     <tr>
         <th>Id</th>
