@@ -126,6 +126,12 @@ width: 400px;
 <div id="left">
 
 
+
+<br>
+<br>
+<br>
+<br>
+
 <dl class="box24">
 <dt>University</dt>
 <dd><div class="textb24">
@@ -161,6 +167,9 @@ width: 400px;
      Add Post
 </a>
 
+<br>
+<br>
+<br>
 <br>
 
 <dl class="box24">
