@@ -50,7 +50,8 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-			<?php echo $this->Html->link(
+			© 2012 BlueChanJP. All Rights Reserved.
+			<?php //echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
 					'http://www.cakephp.org/',
 					array('target' => '_blank', 'escape' => false)
