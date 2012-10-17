@@ -58,6 +58,13 @@ width: 400px;
 
 
 <div id="worp">
+
+<?php
+echo $this->Form->input('search');
+echo $this->Form->end('Search');
+?>
+
+
 <div id="left">
 <dl class="box24">
 <dt>University</dt>
