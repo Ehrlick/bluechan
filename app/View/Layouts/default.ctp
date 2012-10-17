@@ -51,11 +51,11 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 		</div>
 		<div id="footer">
 			© 2012 BlueChanJP. All Rights Reserved.
-			<?php //echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
+			<?php   //echo $this->Html->link(
+					//$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
+					//'http://www.cakephp.org/',
+					//array('target' => '_blank', 'escape' => false)
+				//);
 			?>
 		</div>
 	</div>
