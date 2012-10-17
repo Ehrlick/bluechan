@@ -23,7 +23,7 @@
 
 /** General Style Info **/
 body {
-	background: ＃3366FF;
+	background: #3366FF;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -138,7 +138,7 @@ p {
 }
 #header h3 a:hover {
 	color: #fff;
-	background: ＃3366FF;
+	background: #3366FF;
 	text-decoration: underline;
 }
 #content{
