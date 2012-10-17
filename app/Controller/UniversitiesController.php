@@ -2,6 +2,8 @@
 class UniversitiesController extends AppController {
 	public $helpers = array('Html', 'Form', 'Session');
 	public $components = array('Session');
+	
+	var $uses = array('Category');
 
 	public function beforeFilter()
 	{
