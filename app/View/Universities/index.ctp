@@ -113,6 +113,23 @@ width: 400px;
     box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
 }
 
+.search_box {
+    background-color:#330066;
+    padding:10px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    border: solid 1px #831212;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);
+    border-radius: 5px;
+    margin: 5px;
+    padding-bottom:10px;
+    float: right;
+    width: 250px;
+}
+
 
 </style>
 
@@ -129,8 +146,7 @@ width: 400px;
 <div id="left">
 
 <form>
-	<span><input type="text" class="search rounded" placeholder="Search..."></span>
-	<span><input type="text" class="search square"><input type="button" value="Search"></span>
+	<span><input type="text" class="search_box"><input type="button" value="Search"></span>
 </form>
 
 <br>
