@@ -59,22 +59,23 @@ fieldset.search {
 	width: 243px;
 	margin: 0 auto;
 	background: #222;
+	float: left;
 }
 .search input, .search button {
 	border: none;
 	float: left;
 }
 .search input.box {
-	color: #fff;
+	color: #FFFFFF;
 	font-size: 1.2em;
 	width: 190px;
 	height: 30px;
 	padding: 8px 5px 0;
-	background: #616161 url(search_bg.gif) no-repeat;
+	background: #FFFFFF;
 	margin-right: 5px;
 }
 .search input.box:focus {
-	background: #616161 url(search_bg.gif) no-repeat left -38px;
+	background: #6699FF no-repeat left -38px;
 	outline: none;
 }
 .search button.btn {
@@ -82,10 +83,10 @@ fieldset.search {
 	height: 38px;
 	cursor: pointer;
 	text-indent: -9999px;
-	background: #fbc900 url(search_bg.gif) no-repeat top right;
+	background: 3366FF url(search_bg.gif) no-repeat top right;
 }
 .search button.btn:hover {
-	background: #fbc900 url(search_bg.gif) no-repeat bottom right;
+	background: 3366FF url(search_bg.gif) no-repeat bottom right;
 }
 
 </style>
