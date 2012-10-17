@@ -54,48 +54,10 @@ width: 400px;
   
 -->
 
-#searchbox {
-	border:2px solid #f0f0f0;
-	width:330px;
-}
-#searchform {
-	padding-left:15px;
-}
-#searchform span {
-	color:#C0C0C0;
-	font-family:Verdana,Arial,Helvetica,sans-serif;
-	font-size:12px;
-}
-#searchform_text {
-	-moz-background-clip:border;
-	-moz-background-inline-policy:continuous;
-	-moz-background-origin:padding;
-	background:transparent none repeat scroll 0 0;
-	border:0 none;
-	color:#C0C0C0;
-	font-family:Verdana,Arial,Helvetica,sans-serif;
-	font-size:11px;
-	margin-right:5px;
-	width:198px;
-}
-#searchbutton {
-	position:relative;
-	top:10px;
-}
-
 </style>
 
 <div id="worp">  
 
-<div id="searchbox">
-                <form id="searchform" method="get">
-                    <div>
-			<span>検索 :</span>
-			<input type="text" id="searchform_text" name="s" value=""/>
-			<input type="image" id="searchbutton" src="img/ShowImage.gif"/>
-		</div>
-	</form>
-</div>
 
 <hr>
 <br>

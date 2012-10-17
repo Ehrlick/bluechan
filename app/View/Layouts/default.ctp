@@ -41,6 +41,7 @@ $cakeDescription = __d('cake_dev', 'Bluechan: So....a new fruit? (〃⌒ー⌒)/
 		<div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://bluechan.jp'); ?></h1>
 			<h4><?php echo $this->Html->link('goto admin page', array('admin' => true, 'controller' => 'universities', 'action' => 'index'));?> </h4>
+			<h3><?php echo $this->Html->link('Home', array('controller' => 'universities', 'action' => 'index'));?> | <?php echo $this->Html->link('Universities', array('controller' => 'universities', 'action' => 'index'));?> | <?php echo $this->Html->link('Category', array('controller' => 'categories', 'action' => 'index'));?></h3>
 		</div>
 		<div id="content">
 
