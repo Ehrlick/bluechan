@@ -73,6 +73,43 @@ width: 400px;
   
 -->
 
+.a_demo_one {
+    background-color:#ba2323;
+    padding:10px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    border: solid 1px #831212;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);
+    border-radius: 5px;
+}
+ 
+.a_demo_one:active {
+    padding-bottom:9px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:11px;
+    top:1px;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 100%, rgb(212,51,51) 0%);
+}
+
+.a_demo_one::before {
+    background-color:#ccd0d5;
+    content:"";
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding:8px;
+    left:-8px;
+    top:-8px;
+    z-index:-1;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}
+
 </style>
 
 
@@ -117,10 +154,9 @@ width: 400px;
 
 <div id="right">
 
-<div style="background-color:#330066;width:100px;height:40px">New Post</div>
-
-<br>
-<br>
+<a href="#" class="a_demo_one">
+     Click me!
+</a>
 
 <dl class="box24">
 <dt>Categories</dt>
