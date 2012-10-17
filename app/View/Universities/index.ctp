@@ -37,7 +37,7 @@ width: 400px;
   letter-spacing: 0.2em;
   width: 230px;/*タイトルの幅*/
   padding: 2px 1em 2px 1.5em;
-  background-image: url("images/024_sky.gif");
+  background-image: url("img/024_sky.gif");
   background-repeat: no-repeat;
   }
 .box24 dd{/*内容部分*/
@@ -82,7 +82,7 @@ form.search input.btn {
 width: 80px; /* ボタンの幅 */
 height: 1.8em; /* ボタンの高さ */
 padding: 0;
-background: #c08000 url(btn05.gif); /* ボタンの背景 */
+background: #c08000 url(img/btn05.gif); /* ボタンの背景 */
 border: 1px #c08000 inset; /* ボタンの境界線 */
 font-weight: bold;
 color: #000000;
