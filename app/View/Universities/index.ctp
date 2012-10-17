@@ -4,8 +4,36 @@
 <br>
 <br>
 
-<style>div{float:left;}</style>
-<div>
+<style type="text/css">
+<!--
+#worp {
+padding: 0px;
+width: 800px;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+}
+#worp #left {
+background-color: #0000CC;
+margin: 0px;
+padding: 0px;
+float: left;
+width: 400px;
+height: 100px;
+}
+#worp #right {
+background-color: #FF0000;
+float: right;
+height: 100px;
+width: 400px;
+}
+
+-->
+</style>
+
+<div id="worp">
+<div id="left">
 <table>
     <tr>
         <th>Id</th>
@@ -26,7 +54,7 @@
     <?php unset($university); ?>
 </table></div>
 
-<div>
+<div id="right">
 <table>
     <tr>
         <th>Id</th>
