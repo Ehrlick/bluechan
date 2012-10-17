@@ -114,7 +114,6 @@ width: 400px;
 }
 
 .search_box {
-    background-color:#330066;
     padding:10px;
     position:relative;
     font-family: 'Open Sans', sans-serif;
@@ -126,7 +125,7 @@ width: 400px;
     border-radius: 5px;
     margin: 5px;
     padding-bottom:10px;
-    float: right;
+    float: left;
     width: 250px;
 }
 
