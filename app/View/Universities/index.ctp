@@ -93,7 +93,7 @@ fieldset.search {
 	border: solid 1px #6699FF;
 }
 .search input.box:focus {
-	background: #6699FF no-repeat left -38px;
+	background: 3366FF no-repeat left -38px;
 	outline: none;
 }
 .search button.btn {
@@ -110,14 +110,13 @@ fieldset.search {
 </style>
 
 <div id="worp2">  
-<div id="left">
+
 <form method="get" id="searchform" action="http://www.sohtanaka.com/">
 <fieldset class="search">
 	<input type="text" class="box" />
 	<button class="btn" title="Submit Search">Search</button>
 </fieldset>
 </form>
-	</div>
 </div>
 
 <br>
