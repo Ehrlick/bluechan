@@ -142,6 +142,7 @@ width: 400px;
 
 <div id="worp">  
 
+<div>
 <form>
 	<span><input type="text" class="search_box">
 	<a href="#" class="a_demo_one">
@@ -149,11 +150,13 @@ width: 400px;
 	</a>
 </span>
 </form>
+</div>
 
+<dib>
 <a href="#" class="a_demo_one">
      &nbsp;&nbsp;&nbsp;Add Post&nbsp;&nbsp;&nbsp;
 </a>
-
+</div>
 
 <br>
 
