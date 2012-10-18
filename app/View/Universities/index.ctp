@@ -158,6 +158,7 @@ div.cabinet {
      width:100%;
      margin: 0%;
      padding: 0%;
+     border-color:#333333;border-width:1px;border-style:dashed
 }
 div.doublebox {
      float: left;
@@ -208,6 +209,8 @@ div.fourbox {
 <br>
 
 <div style="padding:3px 5px;border-color:#0B0099;border-width:0 0 1px 7px;border-style:solid;background:#F8F8F8;">UPDATED TRADING</div>
+
+<br>
 
 <div class="cabinet">
      <div class="fourbox">
