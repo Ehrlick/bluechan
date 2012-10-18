@@ -164,7 +164,6 @@ div.doublebox {
      width: 48%;
      margin: 0%;
      padding: 0%;
-     ;border: 1px solid #000;
 }
 div.dummy { clear: left; }
 span.none{ display: none; }
