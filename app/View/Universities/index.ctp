@@ -168,6 +168,8 @@ div.doublebox {
 div.dummy { clear: left; }
 span.none{ display: none; }
 
+
+
 </style>
 
 
@@ -197,8 +199,20 @@ span.none{ display: none; }
 </div>
 
 
+<table width="200" style="border-color:#7E7EFF; border-width:1px; border-style:solid;">
+<tr><td align="center">
+<table width="100%" height="40" style="border-color:#B2B2FF; border-width:1px; border-style:dashed;">
+<tr><td align="center">TEXT </td></tr></table></td></tr></table>
 
+<table width="200" style="border-color:#7E7EFF; border-width:1px; border-style:solid;">
+<tr><td align="center">
+<table width="100%" height="40" style="border-color:#B2B2FF; border-width:1px; border-style:dashed;">
+<tr><td align="center">TEXT </td></tr></table></td></tr></table>
 
+<table width="200" style="border-color:#7E7EFF; border-width:1px; border-style:solid;">
+<tr><td align="center">
+<table width="100%" height="40" style="border-color:#B2B2FF; border-width:1px; border-style:dashed;">
+<tr><td align="center">TEXT </td></tr></table></td></tr></table>
 
 <br>
 
