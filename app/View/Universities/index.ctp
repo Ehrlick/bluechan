@@ -142,6 +142,7 @@ width: 400px;
     border-radius: 5px;
     margin: 5px;
     padding-bottom:10px;
+    float: right;
 }
  
 .search_button:active {
@@ -151,6 +152,16 @@ width: 400px;
     padding-top:11px;
     top:1px;
     background-image: linear-gradient(bottom, rgb(171,27,27) 100%, rgb(212,51,51) 0%);
+}
+
+search_block{
+	padding: 0px;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: solid 1px #000000;
 }
 
 </style>
@@ -165,7 +176,7 @@ width: 400px;
 
 <div id="worp">  
 
-<div>
+<div class="search_block">
 <form>
 	<span><input type="text" class="search_box">
 	<a href="#" class="search_button">
