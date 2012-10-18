@@ -152,7 +152,7 @@ width: 400px;
 </form>
 </div>
 
-<dib>
+<div>
 <a href="#" class="a_demo_one">
      &nbsp;&nbsp;&nbsp;Add Post&nbsp;&nbsp;&nbsp;
 </a>
