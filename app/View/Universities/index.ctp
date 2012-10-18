@@ -207,6 +207,8 @@ div.fourbox {
 <br>
 <br>
 
+<div style="padding:3px 5px;border-color:#0B0099;border-width:0 0 1px 7px;border-style:solid;background:#F8F8F8;">UPDATED TRADING</div>
+
 <div class="cabinet">
      <div class="fourbox">
 <div style="padding:5px;background:#EFEFEF;height:150px;width:150px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
