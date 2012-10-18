@@ -168,6 +168,12 @@ div.doublebox {
 div.dummy { clear: left; }
 span.none{ display: none; }
 
+div.fourbox {
+     float: left;
+     width: 24%;
+     margin: 0%;
+     padding: 0%;
+}
 
 
 </style>
@@ -201,11 +207,23 @@ span.none{ display: none; }
 <br>
 <br>
 
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;">TEXT<br>TEXT<br>…</div>
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;">TEXT<br>TEXT<br>…</div>
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;">TEXT<br>TEXT<br>…</div>
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;">TEXT<br>TEXT<br>…</div>
-
+<div class="cabinet">
+     <div class="fourbox">
+<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+	</div>
+	<div class="fourbox">
+<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+	</div>
+	<div class="fourbox">
+<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+	</div>
+	<div class="fourbox">
+<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+	</div>
+</div>
+<div class="dummy">
+     <span class="none">dummy box</span>
+</div>
 
 <br>
 
