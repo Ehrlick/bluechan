@@ -209,16 +209,16 @@ div.fourbox {
 
 <div class="cabinet">
      <div class="fourbox">
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+<div style="padding:5px;background:#EFEFEF;height:150px;width:150px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
 	</div>
 	<div class="fourbox">
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+<div style="padding:5px;background:#EFEFEF;height:150px;width:150px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
 	</div>
 	<div class="fourbox">
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+<div style="padding:5px;background:#EFEFEF;height:150px;width:150px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
 	</div>
 	<div class="fourbox">
-<div style="padding:5px;background:#EFEFEF;height:50px;width:80px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
+<div style="padding:5px;background:#EFEFEF;height:150px;width:150px;border-color:#cccccc;border-width:0 0 3px 0;border-style:solid;"></div>
 	</div>
 </div>
 <div class="dummy">
@@ -229,9 +229,6 @@ div.fourbox {
 
 <div id="left">
 
-
-<br>
-<br>
 <br>
 <br>
 
@@ -259,8 +256,6 @@ div.fourbox {
 
 <div id="right">
 
-<br>
-<br>
 <br>
 <br>
 
