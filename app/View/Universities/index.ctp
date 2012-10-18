@@ -158,7 +158,7 @@ div.cabinet {
      width:100%;
      margin: 0%;
      padding: 0%;
-     border-color:#333333;border-width:1px;border-style:dashed
+ 
 }
 div.doublebox {
      float: left;
