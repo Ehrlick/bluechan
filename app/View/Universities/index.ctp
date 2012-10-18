@@ -154,15 +154,20 @@ width: 400px;
     background-image: linear-gradient(bottom, rgb(171,27,27) 100%, rgb(212,51,51) 0%);
 }
 
-search_block{
-	padding: 0px;
-	width: 400px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	border: solid 1px #000000;
+div.cabinet {
+     width:100%;
+     margin: 0%;
+     padding: 0%;
 }
+div.doublebox {
+     float: left;
+     width: 48%;
+     margin: 0%;
+     padding: 0%;
+     border: 1px solid #000;
+}
+div.dummy { clear: left; }
+span.none{ display: none; }
 
 </style>
 
@@ -176,24 +181,25 @@ search_block{
 
 <div id="worp">  
 
-<dl class="box24">
-<dt>Search</dt>
-<dd><div class="textb24">
-<form>
+<div class="cabinet">
+     <div class="doublebox"><form>
 	<span><input type="text" class="search_box">
 	<a href="#" class="search_button">
      Search
 	</a>
 </span>
-</form>
-</div></dd>
-</dl>
-
-<div>
-<a href="#" class="a_demo_one">
+</form></div>
+     <div class="doublebox"><a href="#" class="a_demo_one">
      &nbsp;&nbsp;&nbsp;Add Post&nbsp;&nbsp;&nbsp;
-</a>
+</a></div>
 </div>
+<div class="dummy">
+     <span class="none">dummy box</span>
+</div>
+
+
+
+
 
 <br>
 
