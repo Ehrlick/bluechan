@@ -176,7 +176,9 @@ search_block{
 
 <div id="worp">  
 
-<div class="search_block">
+<dl class="box24">
+<dt>Search</dt>
+<dd><div class="textb24">
 <form>
 	<span><input type="text" class="search_box">
 	<a href="#" class="search_button">
@@ -184,7 +186,8 @@ search_block{
 	</a>
 </span>
 </form>
-</div>
+</div></dd>
+</dl>
 
 <div>
 <a href="#" class="a_demo_one">
