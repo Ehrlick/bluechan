@@ -137,13 +137,6 @@ width: 400px;
 
 <br>
 
-<div id="worp">  
-
-
-<br>
-
-<div id="left">
-
 <form>
 	<span><input type="text" class="search_box">
 	<a href="#" class="a_demo_one">
@@ -151,6 +144,19 @@ width: 400px;
 	</a>
 </span>
 </form>
+
+<a href="#" class="a_demo_one">
+     &nbsp;&nbsp;&nbsp;Add Post&nbsp;&nbsp;&nbsp;
+</a>
+
+
+<div id="worp">  
+
+
+<br>
+
+<div id="left">
+
 
 <br>
 <br>
@@ -180,10 +186,6 @@ width: 400px;
 </div>
 
 <div id="right">
-
-<a href="#" class="a_demo_one">
-     &nbsp;&nbsp;&nbsp;Add Post&nbsp;&nbsp;&nbsp;
-</a>
 
 <br>
 <br>
