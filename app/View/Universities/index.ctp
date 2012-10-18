@@ -129,6 +129,29 @@ width: 400px;
     width: 250px;
 }
 
+.search_button {
+    background-color:#330066;
+    padding:10px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    border: solid 1px #831212;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 0%, rgb(212,51,51) 100%);
+    border-radius: 5px;
+    margin: 5px;
+    padding-bottom:10px;
+}
+ 
+.search_button:active {
+    padding-bottom:9px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:11px;
+    top:1px;
+    background-image: linear-gradient(bottom, rgb(171,27,27) 100%, rgb(212,51,51) 0%);
+}
 
 </style>
 
@@ -145,7 +168,7 @@ width: 400px;
 <div>
 <form>
 	<span><input type="text" class="search_box">
-	<a href="#" class="a_demo_one">
+	<a href="#" class="search_button">
      Search
 	</a>
 </span>
